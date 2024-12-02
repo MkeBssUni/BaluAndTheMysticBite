@@ -86,12 +86,12 @@ public class POLYGON_DogAnimationController : MonoBehaviour
     bool death_b = false;
     bool Sleep_b = false;
     bool Sit_b = false;
-    private float w_movement = 0.0f; // Run value
+    public float w_movement = 0.0f; // Run value
     public float acceleration = 1.0f;
     public float decelleration = 1.0f;
-    private float maxWalk = 0.5f;
-    private float maxRun = 1.0f;
-    private float currentSpeed;
+    public float maxWalk = 0.5f;
+    public float maxRun = 1.0f;
+    public float currentSpeed;
     private Transform getDogName;
     private GUIStyle guiStyle = new GUIStyle();
     [Header("Particle FX")]
